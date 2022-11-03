@@ -1,0 +1,16 @@
+<suite name="TestSuite">
+	<test name="ChromeTest">
+	<parameter name = "Browser" value = "Chrome"></parameter>
+		<classes>
+			<class name="testCases.AdminUsersTestCases"></class> <!--package name.class name -->
+
+		</classes>
+	</test>
+	<test name="EdgeTest">
+	<parameter name = "Browser" value = "Edge"></parameter>
+		<classes>
+			<class name="testCases.AdminUsersTestCases"></class> <!--package name.class name -->
+
+		</classes>
+	</test>
+</suite>
